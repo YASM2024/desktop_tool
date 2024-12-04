@@ -12,5 +12,5 @@ This program compresses the working folder and saves it as a backup in a designa
 1. Use it on the desktop.
 2. Configure the "settings" of this program appropriately.
 3. Drag and drop the target folder into this program.
-4. The folder will be compressed and saved in the pre-configured backup directory.
+4. The folder will be compressed and saved in the pre-configured backup directory.  
 Lhaplus needs to be installed.
