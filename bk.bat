@@ -9,7 +9,7 @@ rem # Lhaplus needs to be installed.
 rem # The settings are as follows.
 rem =======================================================================
 set lhaplusPath="C:\Program Files (x86)\Lhaplus\Lhaplus.exe"
-set backupDir="C:\path\to\backupFolder"
+set backupDir="C:\path\to\backupFolder\"
 set password="password"
 rem =======================================================================
 
@@ -29,9 +29,9 @@ echo %basename%
 set "datetime=%date:~0,4%%date:~5,2%%date:~8,2%%time:~0,2%%time:~3,2%%time:~6,2%"
 set "datetime=%datetime: =0%"
 set "archiveName=%basename%_backup_%datetime%.zip"
-%lhaplusPath% /c:zip /p:%password% /n:%backupDir%\%archiveName% %currentDir%\*
+%lhaplusPath% /c:zip /p:%password% /n:%backupDir%%archiveName% %currentDir%\*
 
-echo backup complete: %backupDir%\%archiveName%
+echo backup complete: %backupDir%%archiveName%
 echo do you want to open backup folder?(y/n)
 set /p isopen=
 if /i "%isopen%"=="y" (
