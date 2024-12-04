@@ -4,8 +4,8 @@
 1. デスクトップにおいて使います。
 1. 本プログラムの「settings」を適切に設定してください。
 1. 対象のフォルダを本プログラムにドラグ＆ドロップします。
-1. フォルダが圧縮され、あらかじめ設定したバックアップディレクトリに保存されます。
-※　あらかじめ、Lhaplusがインストールされている必要があります。
+1. フォルダが圧縮され、あらかじめ設定したバックアップディレクトリに保存されます。  
+※　あらかじめ、Lhaplusがインストールされている必要があります。  
 ※　日本語を含むディレクトリ名を使用する場合には、このbatファイルをShift-JIS形式で保存してください。
 
 This program compresses the working folder and saves it as a backup in a designated location, such as a file server.
